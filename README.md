@@ -35,9 +35,12 @@ Although the group fell short of making a working model, we are still confident 
 Once we trained the model on the current data set (which only included films up to 2013) we could add up-to-date data with current films, as well as data for films from foreign markets.
 
 # Section 3: Data Collection
+The data set for our project was large enough to feed our model but was a bit outdated (ending with films from 2013). We gathered the data from a Kaggle project [1] that utilized data from the website Rotten Tomatoes. The data included 2 .csv files with over a million rows of entries.
 
+One .csv file included 21 columns including technical details like, 'movie title,' 'content rating,' 'directors,' 'actors,' 'production company,' etc. The second .csv file included arbitrary informaiton about the films including columns such as, 'genre', 'tagline', and 'keywords.' Many of these categories were considered for the sentiment analysis training.
 
 # Section 4: Data Cleaning
+
 
 # Section 5: Approach and Methodology
 
