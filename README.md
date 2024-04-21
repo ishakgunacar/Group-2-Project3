@@ -28,8 +28,14 @@ The problem we were trying to alleviate was one where the user, although probabl
 Another consideration we had was for the user that didn't know what they wanted to watch and didn't want to waste time looking through their various "watch lists". This was a logistical concern for the user that may only have thrity minutes to an hour to relax at night before going to bed.
 
 # Section 2: Scope
+The intention of our project was to create an app that the user could utilize to get a movie recommendaiton by inputting a general sentiment. Ideally this would have been the base for software that would be made available to the general public on an online browser and as a cellular OS app. 
+
+Although the group fell short of making a working model, we are still confident that we have created a solid proof of concept for how the model would work.
+
+Once we trained the model on the current data set (which only included films up to 2013) we could add up-to-date data with current films, as well as data for films from foreign markets.
 
 # Section 3: Data Collection
+
 
 # Section 4: Data Cleaning
 
