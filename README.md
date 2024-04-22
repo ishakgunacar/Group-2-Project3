@@ -54,3 +54,4 @@ Upon creting our model and wrapping it with Gradio we still couldn't get our sen
 Upon completing this project we realized that although ambitious, our initial idea to create a sentiment-based film recommender would likely take much longer than the alloted time we had for this project. However, the group feels confident that given enough time, trouble shooting and experience it would be possible to create a sentiment-based movie recommender.
 
 # Section 7: Future Considerations
+There are several ideas we would like to push as a group should we continue working on this project. One, we must find a sentiment analysis model that works for us, seeing as how this was the feature that excited us most about creating a movie recommendation system. Two, we would have liked to update the data set to include up-to-date films then train the model on all the data.
