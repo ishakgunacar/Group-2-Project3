@@ -16,9 +16,8 @@ Section 2: Scope<br>
 Section 3: Data Collection<br>
 Section 4: Data Cleaning<br>
 Section 5: Approach and Methodology<br>
-Section 6: Data Optimization<br>
-Section 7: Conclusion<br>
-Section 8: Future Considerations<br>
+Section 6: Conclusion<br>
+Section 7: Future Considerations<br>
 
 # Section 1: Overview
 The objective of our project was to create a sentiment-based Movie Recommendation app that utilized the power of OpenAI to suggest films and tv shows based on an arbitrary statement. For example, if a user were to input the statement, "I feel like watching a crime drama with a police officer as the main character," the app would ideally be able to process that sentiment and recommend a list of films and/or shows baesd on it.
@@ -49,13 +48,9 @@ When embarking on the vectorization process we quickly realized that the data se
 
 Turning our attention instead to completing the RAG model there were still many hurdles to cross. First, the entire group was inexperienced with creating a RAG model as it was a topic we broached in the "Emerging Topics" week of our course. So we didn't have as much hands-on exerience with the code as we didn't even have a full class on the subject. Second, the vectorization for the model was still a problem even when we decided to drop the "review_content" field. The data had to be vectorized into the proper format and there was a time restraint (due to the limit of API requests per day) when upserting them into Pinecone. There were also some technical limitations with our local machines.
 
-Upon creting our model and wrapping it with Gradio we still couldn't get our sentiment analysis to work. In the final model we ended up scrapping the sentiment analysis 
+Upon creting our model and wrapping it with Gradio we still couldn't get our sentiment analysis to work. In the final model we ended up scrapping the sentiment analysis, even though it was a large part of our ideation phase when coming up with this project. In the end we had to choose between a working model and a non-working proof of concept.
 
-- Ended up scrapping sentiment analysis
+# Section 6: Conclusion
+Upon completing this project we realized that although ambitious, our initial idea to create a sentiment-based film recommender would likely take much longer than the alloted time we had for this project. However, the group feels confident that given enough time, trouble shooting and experience it would be possible to create a sentiment-based movie recommender.
 
-
-# Section 6: Data Optimization
-
-# Section 7: Conclusion
-
-# Section 8: Future Considerations
+# Section 7: Future Considerations
