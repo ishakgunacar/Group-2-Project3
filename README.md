@@ -41,6 +41,8 @@ One .csv file included 21 columns including technical details like, 'movie title
 # Section 4: Data Cleaning
 Luckily, because both data sets were collected from Rotten Tomatoes they included a column named, 'Rotten Tomatoes link,' which acted as an identifier in their database for that film. This made it easy to merge the two sets using, 'Rotten Tomatoes Link' as the index. After merging the data we dropped 13 columns that the group deemed unnecessary for our purposes. Most of these columns related to information about the reviews including 'authors' and 'critic names' and since we were only going to utilize the reviews for sentiment analysis, it made sense to lose that info.
 
+In the final iteration of the project we ended up using just one of the datasets because of problems with the vectorization process.
+
 # Section 5: Approach and Methodology
 Early on in the process the group decided to create two competing models for the recommendation system, a BERT based model and a RAG (Retrieval Augmented Generation) model. The reason for this was to create a BERT model, being the more traditional neural network model for movie recommendation, to fall back on in case the RAG model didn't work. As a group, we were excited to create a RAG model so that could utilize the power of OpenAI and enrich the sentiment analysis portion. Ironically it was the BERT model that ended up not working for us in the end.
 
