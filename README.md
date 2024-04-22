@@ -43,8 +43,15 @@ One .csv file included 21 columns including technical details like, 'movie title
 Luckily, because both data sets were collected from Rotten Tomatoes they included a column named, 'Rotten Tomatoes link,' which acted as an identifier in their database for that film. This made it easy to merge the two sets using, 'Rotten Tomatoes Link' as the index. After merging the data we dropped 13 columns that the group deemed unnecessary for our purposes. Most of these columns related to information about the reviews including 'authors' and 'critic names' and since we were only going to utilize the reviews for sentiment analysis, it made sense to lose that info.
 
 # Section 5: Approach and Methodology
-Early on in the process the group decided to create two competing models for the recommendation system, a BERT based model and a RAG (Retrieval Augmented Generation) model. The reason for this was to create a BERT model, being the more traditional neural network model for movie recommendation, to fall back on in case the RAG model didn't work. As a group, we were excited to create a RAG model so that we could utilize the power of OpenAI and enrich the sentiment analysis portion of our model. 
+Early on in the process the group decided to create two competing models for the recommendation system, a BERT based model and a RAG (Retrieval Augmented Generation) model. The reason for this was to create a BERT model, being the more traditional neural network model for movie recommendation, to fall back on in case the RAG model didn't work. As a group, we were excited to create a RAG model so that could utilize the power of OpenAI and enrich the sentiment analysis portion. Ironically it was the BERT model that ended up not working for us in the end.
 
+When embarking on the vectorization process we quickly realized that the data set was too large to vectorize and embed. The reason was because we wanted to use the column, "review_content" which contained an entire published review of the film for sentiment analysis. Given that some of these reviews were up to a 1,000 words, the field was just too large and would have taken too long for us to use a BERT toeknizer and vectorize it for that model.
+
+Turning our attention instead to completing the RAG model there were still many hurdles to cross. First, the entire group was inexperienced with creating a RAG model as it was a topic we broached in the "Emerging Topics" week of our course. So we didn't have as much hands-on exerience with the code as we didn't even have a full class on the subject. Second, the vectorization for the model was still a problem even when we decided to drop the "review_content" field. The data had to be vectorized into the proper format and there was a time restraint (due to the limit of API requests per day) when upserting them into Pinecone. There were also some technical limitations with our local machines.
+
+Upon creting our model and wrapping it with Gradio we still couldn't get our sentiment analysis to work. In the final model we ended up scrapping the sentiment analysis 
+
+- Ended up scrapping sentiment analysis
 
 
 # Section 6: Data Optimization
