@@ -3,9 +3,9 @@
 ## Group 2
 (Edilberto Vinas, Abdullah Ibrahim, Isaac Gunacar, Nick Santos)
 
-Presentation: 
+Presentation: https://www.canva.com/design/DAGDFgxYHxA/QQoTWpmUaC_lhItfts0-aQ/edit
 
-Group 2 notebook: 
+Group 2 notebook: https://github.com/ishakgunacar/Group-2-Project3/blob/main/Movies.ipynb
 
 ## Works Cited
 1. Rotten Tomatoes - EDA (Expoloratory Data Analysis) - https://www.kaggle.com/code/stefanoleone992/rotten-tomatoes-eda/input
